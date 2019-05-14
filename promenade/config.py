@@ -19,7 +19,7 @@ class Configuration:
                  debug=False,
                  substitute=True,
                  allow_missing_substitutions=True,
-                 leave_kubectl=False,
+                 leave_kubectl=True,
                  validate=True):
         LOG.info("Parsing document schemas.")
         LOG.info("Building config from %d documents." % len(documents))
